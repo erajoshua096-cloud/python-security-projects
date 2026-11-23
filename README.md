@@ -10,3 +10,10 @@ Evaluates password complexity against basic security rules (length, uppercase, l
 **How to run:**
 ```bash
 python password_checker.py
+
+### 2. Failed-Login Log Analyser (`log_analyser.py`)
+Scans simulated authentication logs for repeated failed login attempts and raises a security alert when an IP address exceeds a defined threshold—demonstrating basic brute-force detection and incident triage concepts.
+
+**How to run:**
+```bash
+python log_analyser.py
